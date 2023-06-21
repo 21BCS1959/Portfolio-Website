@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    overflow: hidden;
+    background: linear-gradient(90deg,rgb(0, 98, 128),black 25%);
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 90%;
+    width: 90%;
+    display: flex;
+}
+
+/* Profile Section */
+.profile-img{
+    width: 30%;
+}
+.profile-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Description Section */
+.desc-section{
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    gap: 30px;
+}
+.desc-heading{
+    font-size: 40px;
+}
+.cv-btn{
+    height: 35px;
+    border: 1px solid #fff;
+    width: 160px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cv-btn a{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.download-btn{
+    border-radius: 50%;
+    background-color: rgb(0, 98, 128);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12px;
+    padding-left: 2.4px;
+}
+
+/* Navigation Section */
+.nav{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul{
+    color: #fff;
+    list-style-type: none;
+}
+.nav li{
+    display: block;
+    padding: 15px;
+}
+.nav a{
+    color: #fff;
+}
+.nav-icons{
+    background-color: rgb(0, 98, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.profile-img,.desc-section,.nav{
+    height: 95%;
+    border-radius: 30px;
+    margin: 10px;
+}
